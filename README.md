@@ -1,3 +1,3 @@
 # Ecommerce_eSewa_Integration
 Ecommerce_eSewa_Integration 
-![home](sereenshot/home.png)
+![home](screenshot/home.png)
