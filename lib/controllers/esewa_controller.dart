@@ -6,6 +6,8 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
 class EsewaController extends GetxController {
+  //success Data Storage
+  EsewaPaymentSuccessResult? eSuccess;
   @override
   void onInit() {
     super.onInit();
@@ -25,7 +27,8 @@ class EsewaController extends GetxController {
         ),
         onPaymentSuccess: (EsewaPaymentSuccessResult data) {
           debugPrint(":::SUCCESS::: => $data");
-          // verifyTransactionStatus(data);
+          eSuccess = data;
+          update();
         },
         onPaymentFailure: (data) {
           debugPrint(":::FAILURE::: => $data");
