@@ -1,3 +1,6 @@
 # Ecommerce_eSewa_Integration
 Ecommerce_eSewa_Integration 
-![home](screenshot/home.png)
+![Home Page](screenshot/home.png)
+![Product Details](screenshot/product_detail.png)
+![Cart Page](screenshot/cart.png)
+![Esewa Integrated](screenshot/esewa.png)
